@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	background-color: #266abd;
+	font-size: 8vw;
+	color: #ffffff;
+	text-align: center;
+	/* #c82842 */
+	padding: .25em 5%;
+	margin: 0;
+
+	/*font-family: 'Bungee Inline', cursive;
+	font-family: 'Bungee Outline', cursive;  */
+	font-family: 'Bungee Shade', sans-serif;
+}
+
+.mainImage {
+	width: 100%;
+}
+
+.mainImage img {
+	width: 100%;
+}
+
+h1 span {
+	font-family: 'Bungee Inline', sans-serif;
+	display: block;
+	font-size: .25em;
+}
+
+#map {
+	width: 100%;
+	height: 500px;
+}
+
+section {
+	padding: 1.25em 1em;
+}
+
+section.reservations .makeReservation,
+section.reservations .existingReservation,
+section.customerReviews .reviewImage,
+section.customerReviews .reviewText {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+}
+
+section.reservations .makeReservation,
+section.customerReviews .reviewImage {
+	padding-right: .5em;
+}
+
+section.reservations .existingReservation,
+section.customerReviews .reviewText {
+	padding-left: .5em;
+}
+
+form input[type="text"],
+form input[type="date"] {
+	font-family: 'Raleway', sans-serif;
+	font-size: .75em;
+	padding: .5em;
+	box-sizing: border-box;
+	width: 49%;
+}
+
+form button {
+	display: block;
+	margin: .5em .5em .5em 0;
+	padding: .5em;
+	background-color: #266abd;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	border-radius: 3px;
+	border: none;
+}
+
+.existingReservation table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: .875em;
+}
+
+.existingReservation table td,
+.existingReservation table th {
+	text-align: left;
+	padding: .5em .5em .5em 0;
+	border-bottom: : 1px solid #ccc;
+	border-spacing: none;
+}
+
+.existingReservation table th {
+	padding-top: 0;
+	border-bottom: 1px solid #aaa;
+}
+
+.existingReservation td.noReservations {
+	color: #999;
+}
+
+section.customerReviews .reviewImage img {
+	width: 100%;
+}
+
+h2 {
+	font-family: 'Bungee Inline';
+	color: #c82842;
+	margin: 0 0 .5em 0;
+}
+
+h3 {
+	font-family: 'Crete Round';
+	margin-top: 0;
+}
+
+.customerReviews blockquote,
+.customerReviews blockquote p {
+	margin: 0;
+}
+
+.customerReviews blockquote p {
+	font-size: 2em;
+}
+
+.customerReviews blockquote span {
+	font-size: .5em;
+	display: block;
+	margin-top: 1em;
+}
